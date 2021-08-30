@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 
 
@@ -10,7 +11,7 @@ function App() {
         padding: '70px'
       }}>
         <div style={{
-          maxWidth:'60%',
+          maxWidth: '60%',
           margin: 'auto',
           paddingLeft: 'auto',
           paddingRight: 'auto'
@@ -36,11 +37,95 @@ function App() {
           The website is a work in progress. Please visit later.
         </h4>
       </div>
-      <div style={{
-        padding: '20px'
-      }} class='navbar fixed-bottom navbar-text'>Coded by Siddhant Madhur</div>
+
+
+      <FooterNav />
     </div>
+
   );
 }
+
+
+const FooterNav = () => {
+  return (
+    <div id="foot" class='navbar fixed-bottom navbar-text'  style={{
+      fontSize: '0.9rem'
+    }}>
+      <footer class="page-footer font-small blue pt-4">
+
+
+        <div class="container-fluid text-center text-md-left">
+
+
+          <div class="row">
+
+            <div class="col-md-6 mt-md-0 mt-3">
+
+              <h5 class="text-uppercase">About Us</h5>
+              <p>TreePicsCo is the world's leading news publication, offering highly acclaimed, universally revered coverage of breaking nation, internation and local tree related news events.Rising from its humble beginnings as a print newspaper in 1756, TreePicsCo now enjoys a daily readership of 4.3 trillion and has grown into the single most powerful and influential organization in human history.</p>
+
+            </div>
+
+
+            <hr class="clearfix w-100 d-md-none pb-3" />
+
+
+            <div class="col-md-3 mb-md-0 mb-3">
+
+
+              <h5 class="text-uppercase">Siddhant Madhur</h5>
+
+              <ul class="list-unstyled link-dark ">
+                <li>
+                  <a href="https://www.linkedin.com/in/siddhant-madhur-b437241ba/">LinkedIn</a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/siddhantmadhur/">Instagram</a>
+                </li>
+                <li>
+                  <a href="https://thelanshow.gq/">TheLanShow</a>
+                </li>
+              </ul>
+
+            </div>
+
+
+
+            <div class="col-md-3 mb-md-0 mb-3">
+
+
+              <h5 class="text-uppercase">Raghav Bhatia</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://www.linkedin.com/in/raghavbhatia0611/">LinkedIn</a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/bhatia_bhai_jr/">Instagram</a>
+                </li>
+                <li>
+                  <a href="https://linktr.ee/TurbanTalks">TurbanTalks</a>
+                </li>
+              </ul>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <div class="footer-copyright text-center py-3">Website designed by Siddhant Madhur </div>
+
+
+      </footer>
+    </div>
+  )
+}
+
+
 
 export default App;
