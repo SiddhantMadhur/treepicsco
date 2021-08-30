@@ -1,5 +1,13 @@
 body {
-  background: rgb(209,215,150);
-  background: linear-gradient(56deg, rgba(209,215,150,1) 0%, rgba(149,250,144,1) 100%);
+  background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+}
+
+.head {
+  background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+  border-radius: 20px;
+  max-width: 500px;
+  margin: auto;
+  padding-left: auto;
+  padding-right: auto;
 }
 
