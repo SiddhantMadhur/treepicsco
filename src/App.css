@@ -1,5 +1,6 @@
 body {
   background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+  
 }
 
 .head {
@@ -9,10 +10,27 @@ body {
   margin: auto;
   padding-left: auto;
   padding-right: auto;
+
 }
 
 #foot {
 
   background-color: #abe6b8 ;
 
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.bottom {
+  position:absolute;                 
+  bottom:0;                         
+  left:0;                         
 }

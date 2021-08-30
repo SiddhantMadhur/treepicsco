@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div style={{
-      padding: '20px'
+      paddingTop: '20px'
     }}>
       <div class='text-center head' style={{
         padding: '70px'
@@ -37,7 +37,11 @@ function App() {
           The website is a work in progress. Please visit later.
         </h4>
       </div>
+<div style={{
+  height: '300px'
+}}>
 
+</div>
 
       <FooterNav />
     </div>
@@ -48,8 +52,8 @@ function App() {
 
 const FooterNav = () => {
   return (
-    <div id="foot" class='navbar fixed-bottom navbar-text'  style={{
-      fontSize: '0.9rem'
+    <div id="foot" class='bottom' style={{
+      fontSize: '1rem'
     }}>
       <footer class="page-footer font-small blue pt-4">
 
@@ -125,7 +129,6 @@ const FooterNav = () => {
     </div>
   )
 }
-
 
 
 export default App;
